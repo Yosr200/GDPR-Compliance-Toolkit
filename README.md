@@ -67,9 +67,4 @@ flowchart LR
     D --> F
     B --> G[Optional: Anonymization / DSAR Simulation]
 
-JSON Report: Stores detected issues and risk score
-
-Dashboard: Displays detected issues and risk visually
-
-Optional: Simulate anonymization or DSAR actions
 
