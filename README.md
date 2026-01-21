@@ -41,3 +41,17 @@ flowchart LR
     D --> F
     B --> G[Optional: Anonymization / DSAR Simulation]
 
+Diagram explanation:
+
+Dataset Files: CSV or JSON datasets containing user information
+
+Parser: Reads and loads datasets
+
+Analyzer: Detects personal data and calculates risk
+
+JSON Report: Stores detected issues and risk score
+
+Dashboard: Displays detected issues and risk visually
+
+Optional: Simulate anonymization or DSAR actions
+
