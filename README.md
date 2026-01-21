@@ -11,6 +11,18 @@ A lightweight Python toolkit to **analyze datasets for personal data**, generate
 - Sample dataset included
 - Optional: data anonymization and DSAR simulation
 
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    A[Dataset Files] --> B[Dataset Parser]
+    B --> C[GDPR Analyzer]
+    C --> D[JSON Report]
+    C --> E[Flask Dashboard]
+    E --> F[Charts & Tables]
+    D --> F
+    B --> G[Optional: Anonymization / DSAR Simulation]
+
 ---
 
 ## Project Structure
@@ -38,11 +50,4 @@ python app.py
 
 ---
 
-Next, we’ll create **`logs/sample_dataset.csv`** with fake data.  
-
-Do you want me to give that file content next?
-
- 
-    D --> F
-    B --> G[Optional: Anonymization / DSAR Simulation]
 
