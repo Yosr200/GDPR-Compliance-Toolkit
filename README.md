@@ -53,6 +53,10 @@ JSON Report: Stores detected issues and risk score
 Dashboard: Displays detected issues and risk visually
 
 Optional: Simulate anonymization or DSAR actions
+
+
+## Architecture Diagram
+
 ```mermaid
 flowchart LR
     A[Dataset Files] --> B[Dataset Parser]
@@ -62,7 +66,6 @@ flowchart LR
     E --> F[Charts & Tables]
     D --> F
     B --> G[Optional: Anonymization / DSAR Simulation]
-
 
 JSON Report: Stores detected issues and risk score
 
