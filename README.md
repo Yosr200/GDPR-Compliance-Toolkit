@@ -1,1 +1,16 @@
 # GDPR-Compliance-Toolkit
+
+A lightweight Python toolkit to **analyze datasets for personal data**, generate **GDPR compliance reports**, and visualize risk trends in a dashboard.
+
+---
+
+## Features
+- Detect personal data: emails, IPs, phone numbers
+- Risk analysis and reporting (JSON)
+- Dashboard visualization of detected issues
+- Sample dataset included
+- Optional: data anonymization and DSAR simulation
+
+---
+
+## Project Structure
