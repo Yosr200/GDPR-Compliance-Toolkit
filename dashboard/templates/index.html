@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GDPR Compliance Dashboard</title>
+</head>
+<body>
+    <h1>GDPR Compliance Dashboard</h1>
+    <h2>Detected Personal Data Issues</h2>
+    <ul>
+    {% for item in report['issues'] %}
+        <li>Row {{ item.row }}: {{ item.fields }}</li>
+    {% endfor %}
+    </ul>
+    <h2>Risk Score: {{ report['risk_score'] | round(2) }}%</h2>
+</body>
+</html>
