@@ -1,0 +1,7 @@
+from ingestion.dataset_parser import load_dataset
+from analysis.gdpr_analyzer import analyze_personal_data, save_report
+
+df = load_dataset('logs/sample_dataset.csv')
+report = analyze_personal_data(df)
+save_report(report)
+print("GDPR analysis complete! Report saved in results/gdpr_report.json")
