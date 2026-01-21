@@ -21,7 +21,7 @@ A lightweight Python toolkit to **analyze datasets for personal data**, generate
 
 Detected Personal Data: Shows rows containing sensitive data
 
-Risk Score: Percentage of dataset flagged with personal dat
+Risk Score: Percentage of dataset flagged with personal data
 
 ---
 
