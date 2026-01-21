@@ -24,3 +24,21 @@ GDPR-Compliance-Toolkit/
 ├─ run_gdpr_analysis.py
 ├─ requirements.txt
 └─ README.md
+
+
+---
+
+## How to Run
+1. Install dependencies:  
+```bash
+pip install -r requirements.txt
+python run_gdpr_analysis.py
+cd dashboard
+python app.py
+
+---
+
+Next, we’ll create **`logs/sample_dataset.csv`** with fake data.  
+
+Do you want me to give that file content next?
+
