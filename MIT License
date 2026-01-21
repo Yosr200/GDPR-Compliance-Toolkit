@@ -1,0 +1,15 @@
+
+---
+
+✅ **How to use it on GitHub so Mermaid works correctly:**  
+
+1. Make sure you are using a **`.md` file** (README.md).  
+2. GitHub **supports Mermaid diagrams natively** now. Use triple backticks with `mermaid` exactly like above.  
+3. Save your **dashboard screenshot** as `dashboard_image.png` in the repo root or in `dashboard/` folder.  
+4. Commit and push — both the diagram and image will render.  
+
+---
+
+If you want, I can also **write the Markdown with a working placeholder image and example Mermaid screenshot**, so it’s **fully portfolio-ready** for your GitHub page.  
+
+Do you want me to do that next?
