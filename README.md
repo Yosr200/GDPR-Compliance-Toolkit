@@ -11,6 +11,18 @@ A lightweight Python toolkit to **analyze datasets for personal data**, generate
 - Sample dataset included
 - Optional: data anonymization and DSAR simulation
 
+---
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    A[Dataset Files] --> B[Dataset Parser]
+    B --> C[GDPR Analyzer]
+    C --> D[JSON Report]
+    C --> E[Flask Dashboard]
+    E --> F[Charts & Tables]
+    D --> F
+    B --> G[Optional: Anonymization / DSAR Simulation]
 
 ---
 
