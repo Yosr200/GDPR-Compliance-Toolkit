@@ -1,0 +1,6 @@
+name,email,phone,ip
+Alice,alice@example.com,+1234567890,192.168.1.1
+Bob,bob@example.net,+1987654321,10.0.0.5
+Charlie,charlie@example.org,,172.16.0.10
+David,,+447911123456,192.168.0.25
+Eve,eve@example.com,,127.0.0.1
