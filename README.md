@@ -11,7 +11,17 @@ A lightweight Python toolkit to **analyze datasets for personal data**, generate
 - Sample dataset included
 - Optional: data anonymization and DSAR simulation
 
+##Dashboard Preview
+| Row | Column | Detected Type |
+| --- | ------ | ------------- |
+| 0   | email  | email         |
+| 0   | phone  | phone         |
+| 1   | email  | email         |
+| 3   | phone  | phone         |
 
+Detected Personal Data: Shows rows containing sensitive data
+
+Risk Score: Percentage of dataset flagged with personal dat
 
 ---
 
@@ -30,7 +40,19 @@ GDPR-Compliance-Toolkit/
 
 ---
 ## Architecture Diagram
+Diagram explanation:
 
+Dataset Files: CSV or JSON datasets containing user information
+
+Parser: Reads and loads datasets
+
+Analyzer: Detects personal data and calculates risk
+
+JSON Report: Stores detected issues and risk score
+
+Dashboard: Displays detected issues and risk visually
+
+Optional: Simulate anonymization or DSAR actions
 ```mermaid
 flowchart LR
     A[Dataset Files] --> B[Dataset Parser]
@@ -41,13 +63,6 @@ flowchart LR
     D --> F
     B --> G[Optional: Anonymization / DSAR Simulation]
 
-Diagram explanation:
-
-Dataset Files: CSV or JSON datasets containing user information
-
-Parser: Reads and loads datasets
-
-Analyzer: Detects personal data and calculates risk
 
 JSON Report: Stores detected issues and risk score
 
