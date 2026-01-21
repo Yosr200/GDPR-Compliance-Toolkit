@@ -14,3 +14,13 @@ A lightweight Python toolkit to **analyze datasets for personal data**, generate
 ---
 
 ## Project Structure
+GDPR-Compliance-Toolkit/
+├─ ingestion/
+├─ analysis/
+├─ dashboard/
+│ └─ templates/
+├─ logs/
+├─ results/
+├─ run_gdpr_analysis.py
+├─ requirements.txt
+└─ README.md
